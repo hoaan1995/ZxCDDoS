@@ -11,6 +11,11 @@
 > Username: admin<br>
 > Password: admin<br>
 
+## Language</br>
+
+ <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
+ <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+
 # Tree
 * [Read now pls](#README)
 * [Info](#Info)
