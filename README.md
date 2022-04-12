@@ -9,9 +9,9 @@
  
 </p>
 
-> Terminal only accepts ANSI color. >i <br>
-> Username: admin >i <br>
-> Password: admin >i <br>
+> Terminal only accepts ANSI color.<br>
+> Username: admin<br>
+> Password: admin<br>
 
 ## Language</br>
 
