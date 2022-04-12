@@ -1,2 +1,76 @@
-# ZxCDDoS
-ZxCDDoS for education with LAYER 7, LAYER 4, AMP METHODS
+# 🚀 ZxCDDoS: Release v1.0 - Free DDoS Panel 🚀
+> Terminal only accepts ANSI color. <br>
+> Username: admin<br>
+> Password: admin<br>
+
+# Tree
+* [Read now pls](#plz-%EF%B8%8F)
+* [Info](Stellar-Info)
+* [Setup](#Setup)
+* [Credits](#Credits)
+* [T.O.S](#TOS)
+
+# README ♥️
+Thank you for using, please help me press a star button, thank you very much.<br>
+One star = continuously updating multiple methods
+
+# Stellar Info
+- [x] Open Source
+- [x] Powerful
+- [x] Simple
+- [x] Methods for Layer 4 and 7
+- [x] Bypass (Cloudflare, OVH, NFO,...)  
+
+
+# Setup
+```sh
+git clone https://github.com/hoaan1995/ZxCDDoS/
+apt-get install golang -y
+apt-get install perl -y
+apt-get install python3 -y
+apt-get install python2 -y
+apt-get install python3-pip -y
+apt-get install nodejs -y
+apt-get install npm -y
+
+cd ZxCDDos/
+npm i requests
+npm i https-proxy-agent
+npm i crypto-random-string
+npm i events
+npm i fs
+npm i net
+npm i cloudscraper
+npm i request
+npm i hcaptcha-solver
+npm i randomstring
+npm i cluster
+npm i cloudflare-bypasser
+pip3 install -r requirements.txt
+ulimit -n 999999
+chmod 777 *
+python3 c2.py
+```
+
+# Credits
+```sh
+zxcr9999 (Reworked CnC and added some methods .-.)
+Egida (Example Panel <3)
+Empfaked (Layer 7 methods <3)
+im-federal (Layer 4 and AMP methods <3)
+R00tS3C (Layer 4 and AMP methods <3)
+TheSpeedX (HTTP, SOCKS5, SOCK4 proxies <3)
+```
+
+# TOS:
+```sh
+Do not attack government pages (.gov/.gob), educational pages (.edu) or the United States Department of Defense (.mil), 
+the creator is not responsible for the damage caused by the attacks. 
+remember: you are responsible for the attacks since this tool was created for educational purposes
+```
+
+# CONTACT:
+```sh
+Telegram: @zxcr9999
+Discord: zxcr9999#1770
+```
