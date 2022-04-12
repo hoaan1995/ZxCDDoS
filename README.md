@@ -1,4 +1,3 @@
-<div align=center>
 # 🚀 ZxCDDoS: Release v1.0 - Free DDoS Panel 🚀
 
 <p>
