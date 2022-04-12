@@ -9,6 +9,7 @@
 * [Setup](#Setup)
 * [Credits](#Credits)
 * [T.O.S](#TOS)
+* [Contact](#Contact)
 
 # README ♥️
 Thank you for using, please help me press a star button, thank you very much.<br>
@@ -24,7 +25,18 @@ One star = continuously updating multiple methods
 
 # Setup
 ```sh
-git clone https://github.com/hoaan1995/ZxCDDoS/
+CentOS:
+yum install git -y
+yum install golang -y
+yum install perl -y
+yum install python2 -y
+yum install python3 -y
+yum install python3-pip -y
+yum install nodejs -y
+yum install npm -y
+
+Debain, Ubuntu:
+apt-get install git -y
 apt-get install golang -y
 apt-get install perl -y
 apt-get install python3 -y
@@ -33,6 +45,11 @@ apt-get install python3-pip -y
 apt-get install nodejs -y
 apt-get install npm -y
 
+How to use: 
+- Recommended in shell of google, azure,...
+- Using vps with high speed will be stronger
+
+git clone https://github.com/hoaan1995/ZxCDDoS/
 cd ZxCDDos/
 npm i requests
 npm i https-proxy-agent
