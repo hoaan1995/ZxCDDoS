@@ -4,8 +4,8 @@
 > Password: admin<br>
 
 # Tree
-* [Read now pls](#plz-%EF%B8%8F)
-* [Info](Stellar-Info)
+* [Read now pls](#README)
+* [Info](#Info)
 * [Setup](#Setup)
 * [Credits](#Credits)
 * [T.O.S](#TOS)
@@ -14,7 +14,7 @@
 Thank you for using, please help me press a star button, thank you very much.<br>
 One star = continuously updating multiple methods
 
-# Stellar Info
+# Info
 - [x] Open Source
 - [x] Powerful
 - [x] Simple
