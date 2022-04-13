@@ -1,3 +1,7 @@
 datetime
 requests
 cfscrape
+socks
+pysocks
+colorama
+undetected_chromedriver
