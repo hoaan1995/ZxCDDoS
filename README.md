@@ -92,6 +92,7 @@ python3 c2.py
 zxcr9999 (Reworked CnC and added some methods .-.)
 Egida (Example Panel <3)
 Empfaked (Layer 7 methods <3)
+HyukIsBack (Layer 7 methods <3)
 im-federal (Layer 4 and AMP methods <3)
 R00tS3C (Layer 4 and AMP methods <3)
 TheSpeedX (HTTP, SOCKS5, SOCK4 proxies <3)
