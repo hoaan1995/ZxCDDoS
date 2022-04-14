@@ -19,7 +19,7 @@
  </div>
  
  ## Logs</br>
- - [!] Fixed L7 methods
+ - Fixed L7 methods (crash, httpflood)
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
