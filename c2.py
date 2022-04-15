@@ -300,6 +300,11 @@ def main():
 
 # LAYER 7 METHODS
         
+        elif "cf-pro" in cnc:
+            try:
+                os.system(f'python3 cf-pro.py')
+            except IndexError:
+                print('cf-pro')
         elif "cf-socket" in cnc:
             try:
                 os.system(f'python3 bypass.py')
