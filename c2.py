@@ -305,7 +305,7 @@ def main():
                 url = cnc.split()[1]
                 thread = cnc.split()[2]
                 per = cnc.split()[3]
-                os.system(f'perl dstat.pl {url} {thread} {per} 127.0.0.1')
+                os.system(f'perl script.pl {url} {thread} {per} 127.0.0.1')
             except IndexError:
                 print('Usage: dstat <url> <threads> <per>')
                 print('Example: dstat http://example.com 200 200')
