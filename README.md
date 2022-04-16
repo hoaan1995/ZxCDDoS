@@ -19,7 +19,7 @@
  </div>
  
  ## Logs</br>
- - NEW DSTAT METHOD!
+ - FIXED HTTP-RAND METHOD THANK MY FRIEND <3!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
