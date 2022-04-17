@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 ZxCDDoS: Release v1.0 - Free DDoS Panel 🚀
+# 🚀 ZxCDDoS: Release v1.1 - Free DDoS Panel 🚀
 
 <p>
  <img src="https://img.shields.io/github/stars/hoaan1995/ZxCDDoS?color=%23DF0067&style=for-the-badge"/> &nbsp;
@@ -19,11 +19,7 @@
  </div>
  
  ## Logs</br>
- - UPDATE NTP METHOD!
- - UPDATE STD METHOD!
- - UPDATE DESTROY METHOD!
- - UPDATE GOD METHOD!
- - UPDATE BANNERS!
+ - UPDATE HYPER METHOD!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
