@@ -22,6 +22,7 @@
  - UPDATE NTP METHOD!
  - UPDATE STD METHOD!
  - UPDATE DESTROY METHOD!
+ - UPDATE GOD METHOD!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
