@@ -401,7 +401,6 @@ def main():
             try:
                 url = cnc.split()[1]
                 time = cnc.split()[2]
-                rps = cnc.split()[3]
                 os.system(f'node HTTP-RAND.js {url} {time}')
             except IndexError:
                 print('Usage: http-rand <url> <time>')
