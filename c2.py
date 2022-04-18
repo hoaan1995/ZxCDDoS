@@ -331,7 +331,7 @@ def main():
                 port = cnc.split()[2]
                 thread = cnc.split()[3]
                 time = cnc.split()[4]
-                os.system(f'./ldap {ip} {port} {thread} {time}')
+                os.system(f'./ldap {ip} {port} {thread} -1 {time}')
             except IndexError:
                 print('Usage: ldap <ip> <port> <threads> <time>')
                 print('Example: ldap 1.1.1.1 80 650 60')
