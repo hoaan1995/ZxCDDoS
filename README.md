@@ -19,7 +19,7 @@
  </div>
  
  ## Logs</br>
- - NEW SLOWLORIS METHOD!
+ - NEW GOOGLE-PROJECT-SHIELD BYPASS!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
@@ -95,7 +95,7 @@ python3 c2.py
 # Credits
 ```sh
 zxcr9999 (Reworked CnC and added some methods .-.)
-SkyWtkhIsBack (Example Panel <3)
+SkyWtkhIsBack (Example Panel and L7 methods <3)
 Empfaked (Layer 7 methods <3)
 HyukIsBack (Layer 7 methods <3)
 im-federal (Layer 4 and AMP methods <3)
