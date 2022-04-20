@@ -95,7 +95,7 @@ python3 c2.py
 # Credits
 ```sh
 zxcr9999 (Reworked CnC and added some methods .-.)
-Egida (Example Panel <3)
+SkyWtkhIsBack (Example Panel <3)
 Empfaked (Layer 7 methods <3)
 HyukIsBack (Layer 7 methods <3)
 im-federal (Layer 4 and AMP methods <3)
