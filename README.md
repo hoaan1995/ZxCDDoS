@@ -21,6 +21,7 @@
  
  ## Logs</br>
  - NEW GOOGLE-PROJECT-SHIELD BYPASS!
+ - NEW FLUX METHOD!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
