@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 ZxCDDoS: Release v1.2 - Free DDoS Panel 🚀
+# 🚀 ZxCDDoS: Release v1.4 - Free DDoS Panel 🚀
 
 <p>
  <img src="https://img.shields.io/github/stars/hoaan1995/ZxCDDoS?color=%23DF0067&style=for-the-badge"/> &nbsp;
@@ -20,8 +20,8 @@
  </div>
  
  ## Logs</br>
- - NEW FLUX METHOD!
- - NEW STDV2 METHOD!
+ - NEW SPECIAL METHODS!
+ - NEW STRESS METHOD!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
