@@ -453,7 +453,7 @@ def main():
 
 # LAYER 7 METHODS
  
-         elif "ovh-beam" in cnc:
+        elif "ovh-beam" in cnc:
             try:
                 method = cnc.split()[1]
                 ip = cnc.split()[2]
