@@ -23,8 +23,8 @@
  - NEW OVH-BEAM METHODS!
  
 ## Scammer
-![lk]([https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg](https://i.ibb.co/R0NDXnc/photo-2022-05-23-03-57-37.jpg))
-Any Vietnamese Scammer Tool Free
+![lk]([https://i.ibb.co/Y2gH8Vp/neww.png](https://i.ibb.co/R0NDXnc/photo-2022-05-23-03-57-37.jpg))
+- Any Vietnamese Scammer Tool Free
 
 # Tree
 * [Read now pls](#README)
