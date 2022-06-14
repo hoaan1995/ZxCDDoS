@@ -61,21 +61,21 @@ yum install nodejs -y
 yum install npm -y
 
 Debain, Ubuntu:
-apt-get install git -y
-apt-get install golang -y
-apt-get install perl -y
-apt-get install python3 -y
-apt-get install python2 -y
-apt-get install python3-pip -y
-apt-get install nodejs -y
-apt-get install npm -y
+sudo apt-get install git -y
+sudo apt-get install golang -y
+sudo apt-get install perl -y
+sudo apt-get install python3 -y
+sudo apt-get install python2 -y
+sudo apt-get install python3-pip -y
+sudo apt-get install nodejs -y
+sudo apt-get install npm -y
 
 How to use: 
 - Recommended in shell of google, azure,...
 - Using vps with high speed will be stronger
 
 git clone https://github.com/hoaan1995/ZxCDDoS/
-cd ZxCDDos/
+cd ZxCDDoS/
 npm i requests
 npm i https-proxy-agent
 npm i crypto-random-string
