@@ -52,25 +52,14 @@ One star = continuously updating multiple methods
 
 # Setup
 ```sh
-CentOS:
-yum install git -y
-yum install golang -y
-yum install perl -y
-yum install python2 -y
-yum install python3 -y
-yum install python3-pip -y
-yum install nodejs -y
-yum install npm -y
-
-Debain, Ubuntu:
+Debain, Ubuntu (Ubuntu 20.04 better):
 sudo apt-get install git -y
 sudo apt-get install golang -y
 sudo apt-get install perl -y
 sudo apt-get install python3 -y
 sudo apt-get install python2 -y
 sudo apt-get install python3-pip -y
-sudo apt-get install nodejs -y
-sudo apt-get install npm -y
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -;sudo apt -y install nodejs
 
 How to use: 
 - Recommended in shell of google, azure,...
@@ -78,18 +67,7 @@ How to use:
 
 git clone https://github.com/hoaan1995/ZxCDDoS/
 cd ZxCDDoS/
-npm i requests
-npm i https-proxy-agent
-npm i crypto-random-string
-npm i events
-npm i fs
-npm i net
-npm i cloudscraper
-npm i request
-npm i hcaptcha-solver
-npm i randomstring
-npm i cluster
-npm i cloudflare-bypasser
+npm i requests https-proxy-agent crypto-random-string events fs net cloudscraper request hcaptcha-solver randomstring cluster cloudflare-bypasser http http2 crypto tls
 pip3 install -r requirements.txt
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt-get install ./google-chrome-stable_current_amd64.deb
