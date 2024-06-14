@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 ZxCDDoS: Release v1.4 - Free DDoS Panel 🚀
+# 🚀 ZxCDDoS: Release v1.5 - Free DDoS Panel 🚀
 
 # Store: https://condi.billgang.store/
 
@@ -22,10 +22,8 @@
  </div>
  
  ## Logs</br>
- - NEW OVH-BEAM METHODS!
- - Hi all, there are fools scam tool github for 20usd
-- Image scammer:
-https://i.ibb.co/R0NDXnc/photo-2022-05-23-03-57-37.jpg
+ - UPDATE TLS AND HTTP1 METHODS!
+ - UPDATE NEW HTTP(s) PROXY!
  
 ## Screenshot
 ![lk](https://i.ibb.co/LNkqyPR/bandicam-2022-04-12-22-11-34-101.jpg)
